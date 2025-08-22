@@ -98,8 +98,11 @@ public class Alumno {
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Alumno{" + "cuenta=" + cuenta + ", nombre=" + nombre + ", paterno=" + paterno + ", materno=" + materno + ", fechaNac=" + fechaNac + ", correo=" + correo + ", celular=" + celular + ", codigo=" + codigo + '}';
+    }
     
     
 }
